@@ -1,0 +1,15 @@
+*.iml
+*.classpath
+*.project
+*.mymetadata
+*.releaseBackup
+release.properties
+
+.idea/
+target/
+.setting/
+.settings/
+eureka-server/src/test/
+eureka-service-provide/src/test/
+feign/src/test/
+ribbon/src/test/
