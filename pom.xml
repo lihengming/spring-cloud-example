@@ -13,6 +13,9 @@
         <module>eureka-ribbon</module>
         <module>eureka-service-provide</module>
         <module>feign</module>
+        <module>config-server</module>
+        <module>config-client</module>
+        <module>zuul-getway-server</module>
     </modules>
 
     <parent>

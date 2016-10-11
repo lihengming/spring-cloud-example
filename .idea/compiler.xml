@@ -22,20 +22,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="config-client" />
+        <module name="config-server" />
         <module name="eureka-ribbon" />
         <module name="eureka-server" />
         <module name="eureka-service-provide" />
         <module name="feign" />
-        <module name="ribbon" />
+        <module name="zuul-getway-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="config-client" target="1.6" />
+      <module name="config-server" target="1.6" />
       <module name="eureka-ribbon" target="1.6" />
       <module name="eureka-server" target="1.6" />
       <module name="eureka-service-provide" target="1.6" />
       <module name="feign" target="1.6" />
       <module name="ribbon" target="1.6" />
       <module name="spring-cloud-example" target="1.6" />
+      <module name="zuul-getway-server" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
